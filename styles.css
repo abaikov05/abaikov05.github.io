@@ -4,6 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+.blog-image {
+  display: block;
+  max-width: 600px; /* Adjust the maximum width as needed */
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* Centers the image horizontally */
+  padding: 1rem 0; /* Adds vertical spacing */
+}
 
 /* Base styles */
 body {
@@ -52,7 +60,7 @@ nav a:hover {
   padding: 20px;
   margin-bottom: 30px;
   border-left: 5px solid #c41e3a;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .blog-post h2 {
