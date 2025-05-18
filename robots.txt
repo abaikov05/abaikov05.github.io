@@ -1,3 +1,3 @@
-Sitemap: https://abaikov05.github.io/sitemap1.xml
+Sitemap: https://abaikov05.github.io/sitemap.xml
 User-agent: *
 Disallow:
