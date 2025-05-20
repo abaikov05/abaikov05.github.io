@@ -16,36 +16,39 @@
 /* Base styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: hsl(0, 0%, 95%);
   color: #333;
   line-height: 1.6;
 }
 
-header {
-  background-color: #c41e3a;
+nav {
+  background-color: hsl(350, 73%, 40%);
   color: white;
   padding: 20px 0;
   text-align: center;
 }
 
-header h1 {
-  margin-bottom: 10px;
+nav span {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  padding-bottom: 20px;
 }
 
-nav ul {
+div.nav-links ul {
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-nav a {
+div.nav-links a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
+div.nav-links a:hover {
   text-decoration: underline;
 }
 
