@@ -1,3 +1,4 @@
+# Optim
 # pages = {
 #     "index.html": ["index.html","about-me.html","faq.html","baikal-github-co-blog.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html"],
 #     "about-me.html": ["index.html","faq.html","baikal-github-co-blog.html"],
@@ -14,21 +15,39 @@
 #     "post10.html": ["index.html","about-me.html","faq.html", "baikal-github-co-blog.html"],
 #     "golden-dome-of-america.html": ["index.html","about-me.html","faq.html", "baikal-github-co-blog.html"],
 # }
+# Init
+# pages = {
+#     "index.html": ["index.html","about-me.html","faq.html","baikal-github-co-blog.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html"],
+#     "about-me.html": ["index.html","faq.html"],
+#     "faq.html": ["index.html","about-me.html"],
+#     "baikal-github-co-blog.html": ["index.html","about-me.html","faq.html","baikal-github-co-blog.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html"],
+#     "post2.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post3.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post4.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post5.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post6.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post7.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post8.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post9.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "post10.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+#     "golden-dome-of-america.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+# }
+# Optim 2
 pages = {
     "index.html": ["index.html","about-me.html","faq.html","baikal-github-co-blog.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html"],
-    "about-me.html": ["index.html","faq.html"],
-    "faq.html": ["index.html","about-me.html"],
-    "baikal-github-co-blog.html": ["index.html","about-me.html","faq.html","baikal-github-co-blog.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html"],
-    "post2.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post3.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post4.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post5.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post6.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post7.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post8.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post9.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "post10.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
-    "golden-dome-of-america.html": ["index.html","about-me.html","faq.html","golden-dome-of-america.html","post2.html","post3.html","post4.html","post5.html","post6.html","post7.html","post8.html","post9.html","post10.html", "baikal-github-co-blog.html"],
+    "about-me.html": ["index.html","faq.html","post2.html"],
+    "faq.html": ["index.html","about-me.html","baikal-github-co-blog.html"],
+    "baikal-github-co-blog.html": ["index.html","about-me.html","faq.html"],
+    "post2.html": ["index.html","about-me.html","faq.html", "baikal-github-co-blog.html"],
+    "post3.html": ["index.html","about-me.html","faq.html"],
+    "post4.html": ["index.html","about-me.html","faq.html"],
+    "post5.html": ["index.html","about-me.html","faq.html"],
+    "post6.html": ["index.html","about-me.html","faq.html"],
+    "post7.html": ["index.html","about-me.html","faq.html"],
+    "post8.html": ["index.html","about-me.html","faq.html"],
+    "post9.html": ["index.html","about-me.html","faq.html"],
+    "post10.html": ["index.html","about-me.html","faq.html", "baikal-github-co-blog.html"],
+    "golden-dome-of-america.html": ["index.html","about-me.html","faq.html"],
 }
 damping = 0.85
 num_iterations = 100
